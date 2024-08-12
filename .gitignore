@@ -1,1 +1,47 @@
-node_modules
+# Ignore Next.js build files and directories
+.next/
+.next/static/
+.next/server/
+.next/types/
+.next/trace
+.next/app-build-manifest.json
+.next/build-manifest.json
+.next/server/app-paths-manifest.json
+.next/server/middleware-build-manifest.js
+.next/server/server-reference-manifest.js
+.next/server/server-reference-manifest.json
+
+# Ignore Node.js modules (in general, this should already be in your .gitignore)
+node_modules/
+
+# Ignore package-lock.json if it is not needed (e.g., in certain CI/CD setups or when managing dependencies differently)
+node_modules/.package-lock.json
+
+# Ignore specific bin files from node_modules
+node_modules/acorn/bin/acorn
+node_modules/autoprefixer/bin/autoprefixer
+node_modules/browserslist/cli.js
+node_modules/cssesc/bin/cssesc
+node_modules/eslint/bin/eslint.js
+node_modules/glob/dist/esm/bin.mjs
+node_modules/jiti/bin/jiti.js
+node_modules/js-yaml/bin/js-yaml.js
+node_modules/json5/lib/cli.js
+node_modules/loose-envify/cli.js
+node_modules/nanoid/bin/nanoid.cjs
+node_modules/next/dist/bin/next
+node_modules/next/dist/bin/next.map
+node_modules/resolve/bin/resolve
+node_modules/rimraf/bin.js
+node_modules/semver/bin/semver.js
+node_modules/sucrase/bin/sucrase
+node_modules/sucrase/bin/sucrase-node
+node_modules/tailwindcss/lib/cli.js
+node_modules/typescript/LICENSE.txt
+node_modules/typescript/README.md
+node_modules/typescript/ThirdPartyNoticeText.txt
+node_modules/typescript/bin/tsc
+node_modules/typescript/bin/tsserver
+node_modules/typescript/lib/typesMap.json
+node_modules/update-browserslist-db/cli.js
+node_modules/which/bin/node-which
